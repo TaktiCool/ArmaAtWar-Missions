@@ -264,7 +264,7 @@ class RscButton
 };
 
 class RscMapControl {
-    access = 0;
+
     alphaFadeEndScale = 2;
     alphaFadeStartScale = 2;
     colorBackground[] = {0.929412,0.929412,0.929412,1};
@@ -649,7 +649,7 @@ class RscMapControl {
 
 class RscProgress
 {
-    access = 0;
+    
     colorBar[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])","(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
     colorFrame[] = {0,0,0,0};
     deletable = 0;
