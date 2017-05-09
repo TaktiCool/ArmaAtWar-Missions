@@ -110,7 +110,7 @@ class CfgEntities {
 /*
     // Logistic
     class Box_Nato_Ammo_F {
-        isDragable = 1;
+        isDraggable = 1;
         isLoadable = 1;
         cargoCapacity = 3;
         cargoSize = 5;
@@ -123,14 +123,14 @@ class CfgEntities {
     class ReammoBox_F : Box_Nato_Ammo_F {};
 
     class Land_CargoBox_V1_F {
-        isDragable = 1;
+        isDraggable = 1;
         isLoadable = 1;
         cargoCapacity = 20;
         cargoSize = 25;
     };
 
     class B_Slingload_01_Cargo_F {
-        isDragable = 1;
+        isDraggable = 1;
         isLoadable = 0;
         cargoCapacity = 50;
         cargoSize = 60;
@@ -180,7 +180,7 @@ class CfgEntities {
     class O_MRAP_02_F : B_MRAP_01_F {
     };
     class B_HMG_01_high_F {
-        isDragable = 1;
+        isDraggable = 1;
         isLoadable = 1;
     };
     class O_HMG_01_high_F: B_HMG_01_high_F {};
