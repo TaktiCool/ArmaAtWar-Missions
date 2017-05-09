@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=1527;
+		nextID=1530;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=39;
+		nextID=43;
 	};
 	class Camera
 	{
@@ -242,7 +242,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=166;
+		items=169;
 		class Item0
 		{
 			dataType="Marker";
@@ -4320,12 +4320,12 @@ class Mission
 				class Item6
 				{
 					dataType="Marker";
-					position[]={16774.146,43.980957,15018.695};
+					position[]={16776.17,43.672607,14971.703};
 					name="baseSpawn_guer";
 					type="Empty";
 					angle=101.61636;
 					id=999;
-					atlOffset=19.752155;
+					atlOffset=22.868141;
 				};
 				class Item7
 				{
@@ -4418,6 +4418,7 @@ class Mission
 					};
 					id=1525;
 					type="B_Slingload_01_Fuel_F";
+					atlOffset=-0.0029315948;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6853,6 +6854,57 @@ class Mission
 			};
 			id=1524;
 			type="Land_Sign_WarningMilitaryArea_F";
+		};
+		class Item166
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16771.533,20.928532,14973.549};
+				angles[]={6.2445393,0,6.2778478};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1527;
+			type="Land_ClutterCutter_large_F";
+			atlOffset=0.029468536;
+		};
+		class Item167
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16778.018,20.645508,14968.87};
+				angles[]={6.2060056,0,0.0053377044};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1528;
+			type="Land_ClutterCutter_large_F";
+			atlOffset=4.196167e-005;
+		};
+		class Item168
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16785.035,20.365967,14965.574};
+				angles[]={6.2259154,0,6.2818484};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1529;
+			type="Land_ClutterCutter_large_F";
+			atlOffset=-0.00029945374;
 		};
 	};
 };
