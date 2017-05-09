@@ -1,4 +1,14 @@
 {
   "addonFolders": [],
-  "missionFolders": ["AAW_MortarTest.Stratis","AAW_playtest_NATO_CSAT.Stratis", "AAW_playtest_NATO_AAF.Stratis", "AAW_vDev.Stratis", "AAW_operation_spartan_shield_NATO_AAF_AAS.Altis", "AAW_operation_spartan_shield_NATO_AAF_AAS_Infantry.Altis", "AAW_OP_TakeKavala_Inf.Altis", "AAW_operation_atlas_NATO_AAF_AAS_Infantry.Altis", "AAW_AAS_NATO_AAF_OpArtemis_Mot.Altis","AAW_AAS_NATO_AAF_OpAres_Inf.Altis"]
+  "missionFolders": [
+    "AAW_DEV_OpDevelopment.Stratis",
+    "AAW_DEV_MortarTest.Stratis",
+    "AAW_AAS_NATO_CSAT_OpPlaytest.Stratis",
+    "AAW_AAS_NATO_AAF_OpPlaytest.Stratis",
+    "AAW_AAS_NATO_AAF_OpSpartanShield.Altis",
+    "AAW_AAS_NATO_AAF_OpSpartanShield_Inf.Altis",
+    "AAW_AAS_NATO_AAF_OpTakeKavala_Inf.Altis",
+    "AAW_AAS_NATO_AAF_OpAtlas_Inf.Altis",
+    "AAW_AAS_NATO_AAF_OpArtemis_Mot.Altis",
+    "AAW_AAS_NATO_AAF_OpAres_Inf.Altis"]
 }
