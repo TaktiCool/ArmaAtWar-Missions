@@ -78,9 +78,6 @@ class AAW {
 #include "ui\dialog\RoleScreen.hpp"
 
 class RscTitles {
-    #include "ui\hud\CaptureStatus.hpp"
-    #include "ui\hud\TicketStatus.hpp"
-    #include "ui\hud\Notification.hpp"
     #include "ui\hud\Compass.hpp"
     #include "ui\hud\PerformanceStatus.hpp"
 };
