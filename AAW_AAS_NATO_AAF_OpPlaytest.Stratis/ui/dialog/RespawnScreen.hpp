@@ -122,42 +122,5 @@ class AAW_UI_RespawnScreen {
                 };
             };
         };
-        class Notification : RscControlsGroupNoScrollbars {
-            idc = 700;
-            x = 0.5 - PX(25);
-            y = PY(0.5) + safeZoneY;
-            w = PX(50);
-            h = PY(3.5);
-            fade = 1;
-
-            class Controls {
-                class Background : RscPicture {
-                    idc = 799;
-                    text = "ui\media\notification_gradient_ca.paa";
-                    x = PX(0);
-                    y = PY(0);
-                    w = PX(50);
-                    h = PY(4);
-                    colorText[] = {0.8,0.8,0.8,1};
-                };
-                class NotificationText : RscStructuredText {
-                    idc = 701;
-                    shadow = 0;
-                    x = PX(0);
-                    y = PY(0.2);
-                    w = PX(50);
-                    h = PY(3);
-                    text = "TEST";
-                    size = PY(2.5);
-                    class Attributes
-                    {
-                        font = "PuristaMedium";
-                        color = "#ffffff";
-                        align = "center";
-                        shadow = 1;
-                    };
-                };
-            };
-        };
     };
 };
