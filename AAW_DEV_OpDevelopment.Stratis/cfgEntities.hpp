@@ -1,5 +1,8 @@
 class baseSupplyObject {
     supplyUses = -1;
+    isDraggable = 0;
+    isLoadable = 0;
+    cargoCapacity = 0;
 };
 
 class CfgEntities {
