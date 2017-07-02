@@ -48,7 +48,8 @@ class CLib {
         "AAW/Rally",
         "AAW/Mortar",
         "AAW/BaseProtection",
-        "AAW/ScoreTable"
+        "AAW/ScoreTable",
+        "AAW/RadioSounds"
     };
     useExperimentalAutoload = 0;
     useCompressedFunction = 1;
@@ -124,7 +125,7 @@ class CfgSounds {
         name="RadioClickIn";
         sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg", db+7,1.1};
         titles[]={""};
-    }; 
+    };
 
     class AAW_RadioClickOut {
         name="RadioClickOut";
