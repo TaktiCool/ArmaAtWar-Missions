@@ -118,3 +118,22 @@ class CfgRemoteExec {
     };
 };
 */
+
+class CfgSounds {
+    class AAW_RadioClickIn {
+        name="RadioClickIn";
+        sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg", db+7,1.1};
+        titles[]={""};
+    }; 
+
+    class AAW_RadioClickOut {
+        name="RadioClickOut";
+        sound[]={"@A3\Dubbing_Radio_F\sfx\out2a.ogg", db+7,1.1};
+        titles[]={""};
+    };
+    class AAW_RadioNoise {
+        name="RadioNoise";
+        sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+11,1};
+        titles[]={""};
+    };
+}
