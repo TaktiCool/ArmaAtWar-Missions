@@ -137,4 +137,4 @@ class CfgSounds {
         sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+11,1};
         titles[]={""};
     };
-}
+};
