@@ -31,23 +31,7 @@ class CLib {
         EnableGarbageCollector = 1;
         GarbageCollectorTime = 120;
     };
-    Modules[] = {
-        "AAW/Nametags",
-        "AAW/CompassUI",
-        "AAW/GarbageCollector",
-        "AAW/Logistic",
-        "AAW/RespawnUI",
-        "AAW/Revive",
-        "AAW/Supply",
-        "AAW/Tickets",
-        "AAW/UnitTracker",
-        "AAW/VehicleRespawn",
-        "AAW/FOB",
-        "AAW/Rally",
-        "AAW/Mortar",
-        "AAW/BaseProtection",
-        "AAW/ScoreTable"
-    };
+    Modules[] = {"CLib", "AAW"};
     useExperimentalAutoload = 0;
     useCompressedFunction = 0;
     useFallbackRemoteExecution = 0;
