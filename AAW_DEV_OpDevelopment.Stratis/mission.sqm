@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=631;
+		nextID=670;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2946.3767,498.89166,1601.4751};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,0};
+		pos[]={3242.7512,11.392379,6862.7397};
+		dir[]={0.79641408,-0.40153408,0.45248508};
+		up[]={0.34916836,0.9158271,0.19838245};
+		aside[]={0.49404103,-3.7648715e-007,-0.86955535};
 	};
 };
 binarizationWanted=0;
@@ -32,6 +32,7 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
 	"A3_Armor_F_Gamma_MBT_01",
+	"A3_Armor_F_EPC_MBT_01",
 	"A3_Armor_F_Gamma_MBT_02",
 	"A3_Characters_F",
 	"A3_Air_F_Beta_Heli_Transport_01",
@@ -50,13 +51,17 @@ addons[]=
 	"A3_Structures_F_Mil_Flags",
 	"A3_Soft_F_MRAP_01",
 	"A3_Structures_F_EPA_Mil_Scrapyard",
-	"A3_Data_F_Exp_A_Virtual"
+	"A3_Data_F_Exp_A_Virtual",
+	"A3_Modules_F",
+	"A3_Boat_F_Jets_Carrier_01",
+	"A3_Boat_F_Boat_Transport_01",
+	"A3_Boat_F_Boat_Armed_01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=21;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -80,99 +85,127 @@ class AddonsMetaData
 		};
 		class Item3
 		{
+			className="A3_Armor_F_EPC";
+			name="Arma 3 Win Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item5
 		{
 			className="A3_Air_F_Beta";
 			name="Arma 3 Beta - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item6
 		{
 			className="A3_Air_F";
 			name="Arma 3 Alpha - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item7
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Soft_F_Beta";
 			name="Arma 3 Beta - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item10
 		{
 			className="A3_Soft_F";
 			name="Arma 3 Alpha - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item11
 		{
 			className="A3_Soft_F_EPC";
 			name="Arma 3 Win Episode - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item15
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item16
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item18
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item19
+		{
+			className="A3_Boat_F_Jets";
+			name="Arma 3 Jets - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item20
+		{
+			className="A3_Boat_F";
+			name="Arma 3 Alpha - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -275,7 +308,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=205;
+		items=211;
 		class Item0
 		{
 			dataType="Logic";
@@ -615,7 +648,7 @@ class Mission
 			};
 			id=205;
 			type="B_MBT_01_cannon_F";
-			atlOffset=-0.33619404;
+			atlOffset=-0.52690601;
 		};
 		class Item18
 		{
@@ -633,7 +666,7 @@ class Mission
 			};
 			id=215;
 			type="O_MBT_02_cannon_F";
-			atlOffset=-0.012084961;
+			atlOffset=-0.19313049;
 		};
 		class Item19
 		{
@@ -3959,18 +3992,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3251.7026,5.3448906,6865.7754};
-				angles[]={0.024993783,3.5046642,6.2806721};
+				position[]={2740.2158,25.359653,7125.3989};
+				angles[]={0,1.5177732,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				name="vr_ghosthawk_0";
 			};
 			id=432;
 			type="B_Heli_Transport_01_F";
-			atlOffset=-0.0014002323;
+			atlOffset=56.762718;
 		};
 		class Item122
 		{
@@ -4014,8 +4046,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3225.8318,6.9462357,6841.5698};
-				angles[]={0.09471602,2.7910678,6.1983895};
+				position[]={3225.8313,6.9463987,6841.5698};
+				angles[]={0.094719015,2.7910607,6.1983972};
 			};
 			side="Empty";
 			flags=4;
@@ -4025,7 +4057,7 @@ class Mission
 			};
 			id=452;
 			type="B_MBT_01_cannon_F";
-			atlOffset=-0.33544445;
+			atlOffset=-0.52600002;
 		};
 		class Item125
 		{
@@ -4243,7 +4275,7 @@ class Mission
 			};
 			id=502;
 			type="O_Truck_02_transport_F";
-			atlOffset=-0.0024261475;
+			atlOffset=-0.0024871826;
 		};
 		class Item137
 		{
@@ -4261,7 +4293,7 @@ class Mission
 			};
 			id=503;
 			type="O_Truck_02_covered_F";
-			atlOffset=-0.00079345703;
+			atlOffset=-0.0008392334;
 		};
 		class Item138
 		{
@@ -4369,7 +4401,7 @@ class Mission
 			};
 			id=513;
 			type="O_MBT_02_cannon_F";
-			atlOffset=-0.0020751953;
+			atlOffset=-0.18334961;
 		};
 		class Item144
 		{
@@ -6956,6 +6988,86 @@ class Mission
 				};
 				nAttributes=5;
 			};
+		};
+		class Item205
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2994.4221,174.57556,1911.8434};
+			};
+			name="baseSpawn_east";
+			id=631;
+			type="LocationRespawnPoint_F";
+		};
+		class Item206
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2767.7375,-0.30721638,7109.998};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=638;
+			type="Land_Carrier_01_base_F";
+			atlOffset=32.800667;
+		};
+		class Item207
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2740.4753,23.231424,7113.2749};
+			};
+			name="baseSpawn_west";
+			id=639;
+			type="LocationRespawnPoint_F";
+		};
+		class Item208
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2763.2329,24.473886,7112.5659};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="vr_assaultboat_0";
+			};
+			id=640;
+			type="B_Boat_Transport_01_F";
+		};
+		class Item209
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3097.615,3.3237457,6931.7471};
+				angles[]={0,1.8442022,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="vr_speedboat_0";
+			};
+			id=646;
+			type="B_Boat_Armed_01_minigun_F";
+			atlOffset=7.915;
+		};
+		class Item210
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1826.3409,5.5,5695.0869};
+			};
+			id=650;
+			type="LocationArea_F";
 		};
 	};
 };

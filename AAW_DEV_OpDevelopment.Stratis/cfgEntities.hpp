@@ -29,6 +29,16 @@ class CfgEntities {
     class vr_HEMMTLog_0: vr_HEMMTTrans_0 {};
     class vr_HEMMTLog_1: vr_HEMMTTrans_0 {};
 */
+    // Boats
+    class vr_speedboat_0 {
+        respawnCondition = "time > 20";
+        respawnTime = 10;
+    };
+    /*
+    class vr_assaultboat_0 {
+        respawnTime = 10;
+    }
+    */
     // Tanks
     class vr_slammer_0 {
         respawnCondition = "time > 60";
@@ -36,11 +46,12 @@ class CfgEntities {
     class vr_slammer_1 : vr_slammer_0 {};
 
     // Air
-/*
-    class vr_ghosthawk_0 : defaultWest {
-        respawnTime = 60;
-        ticketValue = 50;
+
+    class vr_ghosthawk_0 {
+        respawnCondition = "time > 30";
+        respawnTime = 10;
     };
+    /*
     class vr_ghosthawk_1: vr_ghosthawk_0 {};
 */
     class vr_Huron_0 {
