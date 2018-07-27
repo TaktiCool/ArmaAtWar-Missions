@@ -1,10 +1,10 @@
-tickets = 300; // number of tickets per team
-ticketBleed[] = {10,1}; // time, tickets
-musicStart = 50; // tickets to start the music
+tickets = 100; // number of tickets per team
+ticketBleed[] = {20,1}; // time, tickets
+musicStart = 10; // tickets to start the music
 playerTicketValue = 1; // Ticket value of a player
 
 // restirctSideSwitch = "";
-maxPlayerCountDifference = 3;
+maxPlayerCountDifference = 2;
 minSideSwitchTime = 90;
 
 // Optional ConfigValue used if no Near Location can be found
