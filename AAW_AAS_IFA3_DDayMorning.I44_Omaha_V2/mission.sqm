@@ -1,0 +1,145 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1025;
+	class ItemIDProvider
+	{
+		nextID=6;
+	};
+	class MarkerIDProvider
+	{
+		nextID=1;
+	};
+	class Camera
+	{
+		pos[]={2281.6917,80.542809,2176.8394};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F",
+	"WW2_Core_c_IF_Gui_c"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="WW2_Core_c_IF_Gui_c";
+			name="WW2_Core_c_IF_Gui_c";
+		};
+	};
+};
+randomSeed=13206512;
+class ScenarioData
+{
+	author="joko - dont ask me anything!!!";
+};
+class Mission
+{
+	class Intel
+	{
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=1944;
+		month=1;
+		day=1;
+		hour=12;
+		minute=0;
+		startFogDecay=0;
+		forecastFogDecay=0;
+	};
+	class Entities
+	{
+		items=5;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={822.84802,19.538,4475.6758};
+			name="marker_0";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorWEST";
+			a=365.81201;
+			b=365.81201;
+			id=0;
+			atlOffset=7.3488169;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={3810.186,61.660999,2856.854};
+			name="marker_1";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorEAST";
+			a=365.81201;
+			b=365.81201;
+			id=1;
+			atlOffset=26.047161;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={2811.4021,74.930206,3200.481};
+			name="marker_2";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorEAST";
+			a=136.67285;
+			b=136.67285;
+			id=2;
+			atlOffset=26.047157;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={2006.2952,71.120728,3556.877};
+			name="marker_3";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorEAST";
+			a=142.10278;
+			b=142.10278;
+			id=3;
+			atlOffset=26.112404;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={1622.1541,68.610001,3903.6731};
+			name="marker_5";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorUNKNOWN";
+			a=142.103;
+			b=142.103;
+			id=5;
+			atlOffset=25.598373;
+		};
+	};
+};
