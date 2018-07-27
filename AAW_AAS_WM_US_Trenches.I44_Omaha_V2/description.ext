@@ -16,22 +16,24 @@ enableDebugConsole = 1;
 // skipLobby = 1;
 
 disabledAI = 1;
-author = "TaktiCool Development Team";
-onLoadName = "AAW - OP Spartan Shield";
-onLoadMission = "Advance and Secure, 2 km², Infantry Layout";
-loadScreen =  "ui\media\loadscreen_co.paa";
+author = "101st Airborne Division";
+onLoadName = "AAW - Omaha Beach";
+onLoadMission = "Advance and Secure, 4 km², Infantry";
+loadScreen =  "images\loadscreen_co.paa";
 
 respawn = 3;
 respawnDelay = 0;
 respawnDialog = 0;
-disableChannels[] = {{0, "false", "true"}, {1, "false", "true"}};
 
+disableChannels[] = {{0, "false", "true"}, {1, "false", "true"}};
 class CLib {
     class GarbageCollector {
         EnableGarbageCollector = 1;
         GarbageCollectorTime = 120;
     };
-    Modules[] = {"AAW/AAS"};
+    Modules[] = {
+        "AAW/AAS"
+    };
     useExperimentalAutoload = 0;
     useCompressedFunction = 0;
     useFallbackRemoteExecution = 0;
@@ -43,25 +45,23 @@ class AAW {
 
     #include "cfgGroupTypes.hpp"
 
-    #include "cfgKitGroups.hpp"
-
     #include "cfgSides.hpp"
 
     #include "cfgSectors.hpp"
 
-    #include "cfgRespawn.hpp"
-
-    #include "cfgRevive.hpp"
-
     #include "cfgEntities.hpp"
 
-  	#include "cfgFOB.hpp"
+    #include "cfgKits.hpp"
 
-    #include "ui\common\aawCore.hpp"
+    #include "cfgLogistics.hpp"
 
+	#include "ui\common\aawCore.hpp"
+
+	#include "kits\ww2_ger.hpp"
+	#include "kits\ww2_101st.hpp"
 };
 
-
+#include "cfgSimpleObjects.hpp"
 #include "ui\common\defines.hpp"
 #include "ui\common\baseclasses.hpp"
 #include "ui\common\aaw_baseclasses.hpp"

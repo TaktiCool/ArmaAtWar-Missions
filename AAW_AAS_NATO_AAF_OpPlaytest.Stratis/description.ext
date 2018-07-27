@@ -27,7 +27,7 @@ class CLib {
         EnableGarbageCollector = 1;
         GarbageCollectorTime = 120;
     };
-    Modules[] = {"CLib", "AAW"};
+    Modules[] = {"AAW/AAS"};
     useExperimentalAutoload = 0;
     useCompressedFunction = 0;
     useFallbackRemoteExecution = 0;
