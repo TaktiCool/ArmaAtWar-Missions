@@ -46,13 +46,14 @@ addons[]=
 	"A3_Weapons_F_Ammoboxes",
 	"A3_Structures_F_Ind_FuelStation_Small",
 	"A3_Structures_F_EPA_Mil_Scrapyard",
-	"A3_Supplies_F_Heli_Slingload"
+	"A3_Supplies_F_Heli_Slingload",
+	"A3_Data_F_Exp_A_Virtual"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=12;
+		items=13;
 		class Item0
 		{
 			className="A3_Structures_F_Mil";
@@ -134,6 +135,13 @@ class AddonsMetaData
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="A3_Data_F_Exp_A";
+			name="Arma 3 Nexus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
