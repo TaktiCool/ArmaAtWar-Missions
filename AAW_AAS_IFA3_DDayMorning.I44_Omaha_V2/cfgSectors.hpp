@@ -32,13 +32,8 @@ class CfgSectors {
             };
 
             class sector_2 : sector {
-                dependency[] = {"sector_1","sector_3"};
+                dependency[] = {"sector_1","base_west"};
                 designator = "C";
-            };
-            
-            class sector_3 : sector {
-                dependency[] = {"sector_2","base_west"};
-                designator = "D";
             };
 
         };

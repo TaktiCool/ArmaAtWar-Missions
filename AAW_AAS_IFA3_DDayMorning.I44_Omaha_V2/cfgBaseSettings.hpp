@@ -13,10 +13,7 @@ markerLocation[] = {
     "base_west",
     "sector_0",
     "sector_1",
-    "sector_2",
-    "sector_3",
-    "sector_4",
-    "sector_5"
+    "sector_2"
 };
 
 tracks[] = {"AmbientTrack01_F_EPB", "AmbientTrack01_F", "AmbientTrack01a_F", "AmbientTrack01b_F", "AmbientTrack03_F", "AmbientTrack04a_F", "AmbientTrack04_F"};
