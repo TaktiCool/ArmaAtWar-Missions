@@ -16,8 +16,8 @@ enableDebugConsole = 1;
 // skipLobby = 1;
 
 disabledAI = 1;
-author = "101st Airborne Division";
-onLoadName = "AAW - Omaha Beach";
+author = "AAW Team";
+onLoadName = "AAW - Bridge Crossing";
 onLoadMission = "Advance and Secure, 4 km², Infantry";
 loadScreen =  "images\loadscreen_co.paa";
 
