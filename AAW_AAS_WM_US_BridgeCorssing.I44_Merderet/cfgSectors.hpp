@@ -22,12 +22,12 @@ class CfgSectors {
     class CfgSectorPath {
         class path_0 {
             class sector_0 : sector {
-                dependency[] = {"base_guer","sector_1"};
+                dependency[] = {"base_west","sector_1"};
                 designator = "A";
             };
 
             class sector_1 : sector {
-                dependency[] = {"sector_0","base_west"};
+                dependency[] = {"sector_0","base_guer"};
                 designator = "B";
             };
 
