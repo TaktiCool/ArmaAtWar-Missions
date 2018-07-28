@@ -16,7 +16,7 @@ class WW2_101ST {
 		isMedic = 0;
 		isEngineer = 0;
 		isPilot = 0;
-		isCrew = 0;
+		isCrew = 1;
 
 		// Primary weapon
 		primaryWeapon = "LIB_M1_Garand";
