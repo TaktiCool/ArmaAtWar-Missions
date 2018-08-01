@@ -2,26 +2,26 @@ class Sides {
     class West {
         name = "Wehrmacht";
         playerClass = "SG_sturmtrooper_rifleman";
-        flag = "images\Wehrmacht.paa";
+        flag = "ww2\core_t\if_data_t\factions\wehrmacht.paa";
         mapIcon = "a3\ui_f\data\Map\Markers\NATO\n_installation.paa";
         color[] = {0.5,0.5,0.5, 1};
         squadRallyPointObjects[] = {{"Land_WW2_Zeltbahn", {0,0,0}}};
         FOBBoxObject = "B_supplyCrate_F";
         FOBComposition = "FOBGER";
-        kits = "ww2_ger";
+        kits = "IFA3_GER";
         logistics = "GER";
     };
 
     class GUER : WEST {
         name = "US ARMY";
         playerClass = "LIB_US_101AB_rifleman";
-        flag = "images\US_Army.paa";
+        flag = "ww2\core_t\if_data_t\factions\us_army.paa";
         mapIcon = "a3\ui_f\data\Map\Markers\NATO\n_installation.paa";
         color[] = {0.1, 0.4, 0, 1};
         squadRallyPointObjects[] = {{"Land_TentA_F", {0,0,0}}};
         FOBBoxObject = "I_supplyCrate_F";
         FOBComposition = "FOBUS";
-        kits = "ww2_101st";
+        kits = "IFA3_US";
         logistics = "US";
     };
 };

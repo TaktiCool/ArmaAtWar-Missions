@@ -56,9 +56,6 @@ class AAW {
     #include "cfgLogistics.hpp"
 
 	#include "ui\common\aawCore.hpp"
-
-	#include "kits\ww2_ger.hpp"
-	#include "kits\ww2_101st.hpp"
 };
 
 #include "cfgSimpleObjects.hpp"
