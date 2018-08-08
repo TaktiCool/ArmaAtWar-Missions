@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3242.7512,11.392379,6862.7397};
-		dir[]={0.79641408,-0.40153408,0.45248508};
-		up[]={0.34916836,0.9158271,0.19838245};
-		aside[]={0.49404103,-3.7648715e-007,-0.86955535};
+		pos[]={3002.3975,196.04756,1858.1743};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -223,24 +223,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -255,6 +237,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -4002,7 +4002,7 @@ class Mission
 			};
 			id=432;
 			type="B_Heli_Transport_01_F";
-			atlOffset=56.762718;
+			atlOffset=-0.0013878345;
 		};
 		class Item122
 		{
@@ -4039,7 +4039,7 @@ class Mission
 			};
 			id=439;
 			type="B_Heli_Transport_01_F";
-			atlOffset=-0.0014491081;
+			atlOffset=-0.0014367104;
 		};
 		class Item124
 		{
@@ -5871,7 +5871,7 @@ class Mission
 			};
 			id=576;
 			type="B_MRAP_01_hmg_F";
-			atlOffset=-0.046817303;
+			atlOffset=-0.046998978;
 		};
 		class Item189
 		{
@@ -5926,7 +5926,7 @@ class Mission
 			};
 			id=612;
 			type="Box_NATO_AmmoVeh_F";
-			atlOffset=-0.0015368462;
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6007,7 +6007,7 @@ class Mission
 			};
 			id=618;
 			type="B_Slingload_01_Repair_F";
-			atlOffset=-0.0018959045;
+			atlOffset=-2.3841858e-007;
 		};
 		class Item194
 		{
@@ -6022,6 +6022,7 @@ class Mission
 			class Attributes
 			{
 				name="vr_vehicleParts_0";
+				createAsSimpleObject=1;
 			};
 			id=619;
 			type="Land_ScrapHeap_1_F";
@@ -6043,7 +6044,6 @@ class Mission
 			};
 			id=620;
 			type="Land_Pod_Heli_Transport_04_fuel_F";
-			atlOffset=-0.0065765381;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6084,7 +6084,7 @@ class Mission
 			};
 			id=621;
 			type="Box_East_AmmoVeh_F";
-			atlOffset=-0.0015106201;
+			atlOffset=1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
