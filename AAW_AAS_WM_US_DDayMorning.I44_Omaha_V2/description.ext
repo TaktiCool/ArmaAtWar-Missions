@@ -49,16 +49,11 @@ class AAW {
 
     #include "cfgSectors.hpp"
 
-    #include "cfgEntities.hpp"
-
     #include "cfgKits.hpp"
-
-    #include "cfgLogistics.hpp"
 
 	#include "ui\common\aawCore.hpp"
 };
 
-#include "cfgSimpleObjects.hpp"
 #include "ui\common\defines.hpp"
 #include "ui\common\baseclasses.hpp"
 #include "ui\common\aaw_baseclasses.hpp"

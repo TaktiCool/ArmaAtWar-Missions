@@ -46,8 +46,6 @@ class AAW {
 
     #include "cfgSectors.hpp"
 
-    #include "cfgEntities.hpp"
-
     #include "ui\common\aawCore.hpp"
 
     class CfgLogistics {
