@@ -1,4 +1,4 @@
-version=53;
+version=54;
 class EditorData
 {
 	moveGridStep=1;
@@ -8,11 +8,11 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=631;
+		nextID=645;
 	};
 	class MarkerIDProvider
 	{
-		nextID=27;
+		nextID=28;
 	};
 	class LayerIndexProvider
 	{
@@ -20,23 +20,26 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3002.3975,196.04756,1858.1743};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={2198.6108,19.497858,5649.6738};
+		dir[]={0.3720243,-0.8496204,-0.37386861};
+		up[]={0.59928286,0.52739358,-0.60225409};
+		aside[]={-0.70886421,3.3853576e-007,-0.70536757};
 	};
 };
 binarizationWanted=0;
+sourceName="AAW_DEV_OpDevelopment";
 addons[]=
 {
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
 	"A3_Armor_F_Gamma_MBT_01",
+	"A3_Armor_F_EPC_MBT_01",
 	"A3_Armor_F_Gamma_MBT_02",
 	"A3_Characters_F",
 	"A3_Air_F_Beta_Heli_Transport_01",
 	"A3_Air_F_Heli_Light_02",
 	"A3_Soft_F_Gamma_Truck_01",
+	"A3_Soft_F_Exp_Truck_01",
 	"A3_Soft_F_Beta_Truck_01",
 	"A3_Air_F_Heli_Heli_Transport_04",
 	"A3_Air_F_Heli_Heli_Transport_03",
@@ -56,7 +59,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=19;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -80,96 +83,110 @@ class AddonsMetaData
 		};
 		class Item3
 		{
+			className="A3_Armor_F_EPC";
+			name="Arma 3 Win Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item5
 		{
 			className="A3_Air_F_Beta";
 			name="Arma 3 Beta - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item6
 		{
 			className="A3_Air_F";
 			name="Arma 3 Alpha - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item7
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
+		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
 		{
 			className="A3_Soft_F_Beta";
 			name="Arma 3 Beta - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item10
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item11
 		{
 			className="A3_Soft_F";
 			name="Arma 3 Alpha - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item12
 		{
 			className="A3_Soft_F_EPC";
 			name="Arma 3 Win Episode - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item13
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item14
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item15
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item16
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item17
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item18
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
@@ -177,6 +194,10 @@ class AddonsMetaData
 			url="https://www.arma3.com";
 		};
 	};
+};
+dlcs[]=
+{
+	"Heli"
 };
 randomSeed=13778806;
 class ScenarioData
@@ -189,6 +210,24 @@ class CustomAttributes
 	{
 		name="Multiplayer";
 		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
 		{
 			property="RespawnButton";
 			expression="true";
@@ -204,24 +243,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -275,7 +296,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=205;
+		items=219;
 		class Item0
 		{
 			dataType="Logic";
@@ -576,7 +597,7 @@ class Mission
 		class Item15
 		{
 			dataType="Marker";
-			position[]={4499.6333,106.07378,6796.1113};
+			position[]={4499.6328,106.074,6796.1108};
 			name="sector_12";
 			text="Kill Farm";
 			markerType="ELLIPSE";
@@ -585,6 +606,7 @@ class Mission
 			a=80;
 			b=80;
 			id=196;
+			atlOffset=0.00016021729;
 		};
 		class Item16
 		{
@@ -615,7 +637,7 @@ class Mission
 			};
 			id=205;
 			type="B_MBT_01_cannon_F";
-			atlOffset=-0.33619404;
+			atlOffset=-0.52690601;
 		};
 		class Item18
 		{
@@ -633,7 +655,7 @@ class Mission
 			};
 			id=215;
 			type="O_MBT_02_cannon_F";
-			atlOffset=-0.012084961;
+			atlOffset=-0.19313049;
 		};
 		class Item19
 		{
@@ -3970,7 +3992,7 @@ class Mission
 			};
 			id=432;
 			type="B_Heli_Transport_01_F";
-			atlOffset=-0.0013878345;
+			atlOffset=-0.0014002323;
 		};
 		class Item122
 		{
@@ -4007,7 +4029,7 @@ class Mission
 			};
 			id=439;
 			type="B_Heli_Transport_01_F";
-			atlOffset=-0.0014367104;
+			atlOffset=-0.0014491081;
 		};
 		class Item124
 		{
@@ -4025,7 +4047,7 @@ class Mission
 			};
 			id=452;
 			type="B_MBT_01_cannon_F";
-			atlOffset=-0.33544445;
+			atlOffset=-0.52612162;
 		};
 		class Item125
 		{
@@ -4243,7 +4265,7 @@ class Mission
 			};
 			id=502;
 			type="O_Truck_02_transport_F";
-			atlOffset=-0.0024261475;
+			atlOffset=-0.0024871826;
 		};
 		class Item137
 		{
@@ -4261,7 +4283,7 @@ class Mission
 			};
 			id=503;
 			type="O_Truck_02_covered_F";
-			atlOffset=-0.00079345703;
+			atlOffset=-0.0008392334;
 		};
 		class Item138
 		{
@@ -4369,7 +4391,7 @@ class Mission
 			};
 			id=513;
 			type="O_MBT_02_cannon_F";
-			atlOffset=-0.0020751953;
+			atlOffset=-0.18334961;
 		};
 		class Item144
 		{
@@ -5894,7 +5916,7 @@ class Mission
 			};
 			id=612;
 			type="Box_NATO_AmmoVeh_F";
-			atlOffset=2.3841858e-007;
+			atlOffset=-0.0015368462;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5975,7 +5997,7 @@ class Mission
 			};
 			id=618;
 			type="B_Slingload_01_Repair_F";
-			atlOffset=-2.3841858e-007;
+			atlOffset=-0.0018959045;
 		};
 		class Item194
 		{
@@ -5990,7 +6012,6 @@ class Mission
 			class Attributes
 			{
 				name="vr_vehicleParts_0";
-				createAsSimpleObject=1;
 			};
 			id=619;
 			type="Land_ScrapHeap_1_F";
@@ -6012,6 +6033,7 @@ class Mission
 			};
 			id=620;
 			type="Land_Pod_Heli_Transport_04_fuel_F";
+			atlOffset=-0.0065765381;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6052,7 +6074,7 @@ class Mission
 			};
 			id=621;
 			type="Box_East_AmmoVeh_F";
-			atlOffset=1.5258789e-005;
+			atlOffset=-0.0015106201;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6956,6 +6978,130 @@ class Mission
 				};
 				nAttributes=5;
 			};
+		};
+		class Item205
+		{
+			dataType="Marker";
+			position[]={4503.5181,105.555,6800.3569};
+			name="sector_12_spawn";
+			type="Empty";
+			id=631;
+			atlOffset=-5.3405762e-005;
+		};
+		class Item206
+		{
+			dataType="Marker";
+			position[]={3293.167,229.215,2927.2119};
+			name="sector_3_spawn";
+			type="Empty";
+			id=632;
+			atlOffset=-0.00012207031;
+		};
+		class Item207
+		{
+			dataType="Marker";
+			position[]={2028.963,4.3800001,2703.333};
+			name="sector_10_spawn";
+			type="Empty";
+			id=633;
+			atlOffset=-0.00021743774;
+		};
+		class Item208
+		{
+			dataType="Marker";
+			position[]={1988.681,2.7390001,3527};
+			name="sector_7_spawn";
+			type="Empty";
+			id=634;
+			atlOffset=-0.00063323975;
+		};
+		class Item209
+		{
+			dataType="Marker";
+			position[]={2822.9819,39.632,3731.3879};
+			name="sector_13_spawn";
+			type="Empty";
+			id=635;
+			atlOffset=0.00011825562;
+		};
+		class Item210
+		{
+			dataType="Marker";
+			position[]={4338.0532,226.80901,3839.8999};
+			name="sector_6_spawn";
+			type="Empty";
+			id=636;
+			atlOffset=-0.00033569336;
+		};
+		class Item211
+		{
+			dataType="Marker";
+			position[]={4327.7959,177.24699,4370.9639};
+			name="sector_2_spawn";
+			type="Empty";
+			id=637;
+			atlOffset=-7.6293945e-005;
+		};
+		class Item212
+		{
+			dataType="Marker";
+			position[]={3492.5911,200.07201,4921.1128};
+			name="sector_9_spawn";
+			type="Empty";
+			id=638;
+			atlOffset=0.00035095215;
+		};
+		class Item213
+		{
+			dataType="Marker";
+			position[]={3288.3359,4.855,5794.5859};
+			name="sector_4_spawn";
+			type="Empty";
+			id=639;
+			atlOffset=-0.00027370453;
+		};
+		class Item214
+		{
+			dataType="Marker";
+			position[]={2994.1311,9.1359997,6088.5562};
+			name="sector_5_spawn";
+			type="Empty";
+			id=640;
+			atlOffset=-0.00077533722;
+		};
+		class Item215
+		{
+			dataType="Marker";
+			position[]={5000.8242,208.496,5920.5151};
+			name="sector_0_spawn";
+			type="Empty";
+			id=641;
+			atlOffset=4.5776367e-005;
+		};
+		class Item216
+		{
+			dataType="Marker";
+			position[]={6435.3975,7.9253125,5361.3638};
+			name="sector_11_spawn";
+			type="Empty";
+			id=642;
+		};
+		class Item217
+		{
+			dataType="Marker";
+			position[]={2202.551,6,5643.708};
+			name="sector_8_spawn";
+			type="Empty";
+			id=643;
+		};
+		class Item218
+		{
+			dataType="Marker";
+			position[]={5206.0132,223.04601,5004.4878};
+			name="sector_1_spawn";
+			type="Empty";
+			id=644;
+			atlOffset=-0.00044250488;
 		};
 	};
 };
