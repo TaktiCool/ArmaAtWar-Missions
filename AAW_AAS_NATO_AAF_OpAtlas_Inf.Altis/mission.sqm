@@ -1,14 +1,14 @@
-version=53;
+version=54;
 class EditorData
 {
 	moveGridStep=1;
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=10;
+	toggles=1034;
 	class ItemIDProvider
 	{
-		nextID=1452;
+		nextID=1453;
 	};
 	class MarkerIDProvider
 	{
@@ -16,17 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=27;
+		nextID=31;
 	};
 	class Camera
 	{
-		pos[]={13321.051,28.39357,16857.725};
-		dir[]={0.81900895,-0.44551846,0.36164725};
-		up[]={0.40757093,0.89526695,0.1799704};
-		aside[]={0.40395042,-7.3108822e-008,-0.91480803};
+		pos[]={11863.292,65.207024,14242.967};
+		dir[]={-0.16690575,-0.3403284,0.92537701};
+		up[]={-0.060408838,0.94030666,0.33492517};
+		aside[]={0.98412263,5.7334546e-009,0.17750153};
 	};
 };
 binarizationWanted=0;
+sourceName="AAW_AAS_NATO_AAF_OpAtlas_Inf";
 addons[]=
 {
 	"A3_Ui_F",
@@ -41,18 +42,20 @@ addons[]=
 	"A3_Structures_F_Walls",
 	"A3_Structures_F_Mil_Cargo",
 	"A3_Soft_F_Beta_Truck_01",
+	"A3_Soft_F_Exp_Truck_01",
 	"A3_Soft_F_MRAP_01",
 	"A3_Supplies_F_Heli_Slingload",
 	"A3_Structures_F_Mil_Fortification",
 	"A3_Structures_F_Wrecks",
 	"A3_Modules_F_Effects",
-	"A3_Data_F_Exp_A_Virtual"
+	"A3_Data_F_Exp_A_Virtual",
+	"A3_Modules_F_Curator_Misc"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=14;
+		items=15;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -118,33 +121,40 @@ class AddonsMetaData
 		};
 		class Item9
 		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
 			className="A3_Soft_F";
 			name="Arma 3 Alpha - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item11
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
@@ -152,6 +162,10 @@ class AddonsMetaData
 			url="https://www.arma3.com";
 		};
 	};
+};
+dlcs[]=
+{
+	"Heli"
 };
 randomSeed=1268690;
 class ScenarioData
@@ -216,7 +230,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=120;
+		items=121;
 		class Item0
 		{
 			dataType="Marker";
@@ -4315,7 +4329,7 @@ class Mission
 					};
 					id=992;
 					type="I_Truck_02_covered_F";
-					atlOffset=-0.014858246;
+					atlOffset=-0.014915466;
 				};
 				class Item6
 				{
@@ -4333,6 +4347,7 @@ class Mission
 					};
 					id=994;
 					type="I_Truck_02_covered_F";
+					atlOffset=-5.3405762e-005;
 				};
 				class Item7
 				{
@@ -4354,7 +4369,7 @@ class Mission
 					position[]={10796.186,45.748322,14463.072};
 					name="baseSpawn_guer";
 					type="Empty";
-					angle=101.61637;
+					angle=101.61636;
 					id=999;
 				};
 				class Item9
@@ -4373,6 +4388,7 @@ class Mission
 					};
 					id=997;
 					type="Flag_AAF_F";
+					atlOffset=-3.8146973e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4444,11 +4460,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1411;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4485,11 +4501,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1412;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4526,11 +4542,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1418;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4567,11 +4583,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1419;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4608,11 +4624,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1420;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4649,11 +4665,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1421;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4690,11 +4706,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1422;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4731,11 +4747,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1423;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4772,11 +4788,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1424;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4813,11 +4829,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1425;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4854,11 +4870,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1426;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4895,11 +4911,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1429;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4936,11 +4952,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1430;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4977,11 +4993,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1431;
 							type="Land_Wall_IndCnc_4_F";
+							atlOffset=0.023551941;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5018,12 +5034,11 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1432;
 							type="Land_Wall_IndCnc_4_F";
-							atlOffset=3.8146973e-006;
+							atlOffset=0.023555756;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5060,7 +5075,6 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1414;
@@ -5091,7 +5105,7 @@ class Mission
 						};
 					};
 					id=1435;
-					atlOffset=0.025909424;
+					atlOffset=0.03768158;
 				};
 			};
 			id=1044;
@@ -5385,7 +5399,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1383;
@@ -5426,7 +5439,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1397;
@@ -5467,7 +5479,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1379;
@@ -5508,7 +5519,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1384;
@@ -5549,7 +5559,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1387;
@@ -5590,7 +5599,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1388;
@@ -5631,7 +5639,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1389;
@@ -5672,7 +5679,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1392;
@@ -5713,7 +5719,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1393;
@@ -5754,7 +5759,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1394;
@@ -5795,7 +5799,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1399;
@@ -5836,7 +5839,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1400;
@@ -5877,7 +5879,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1378;
@@ -5919,7 +5920,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1386;
@@ -5960,7 +5960,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1396;
@@ -6001,7 +6000,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1401;
@@ -6042,7 +6040,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1402;
@@ -6083,7 +6080,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1403;
@@ -6124,7 +6120,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1404;
@@ -6165,7 +6160,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1406;
@@ -6206,7 +6200,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1380;
@@ -6247,7 +6240,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1385;
@@ -6288,7 +6280,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1391;
@@ -6370,7 +6361,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=1443;
@@ -6420,7 +6410,6 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1436;
@@ -6461,7 +6450,6 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1437;
@@ -6499,7 +6487,7 @@ class Mission
 			};
 			id=1440;
 			type="ModuleEffectsSmoke_F";
-			atlOffset=1.2979412;
+			atlOffset=1.2975788;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7111,6 +7099,7 @@ class Mission
 			isPlayable=1;
 			id=1447;
 			type="VirtualSpectator_F";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7651,6 +7640,21 @@ class Mission
 				};
 				nAttributes=5;
 			};
+		};
+		class Item120
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12441.956,27.863089,15240.797};
+				angles[]={0,5.5283413,0};
+			};
+			areaSize[]={1979.3937,0,1080.6118};
+			areaIsRectangle=1;
+			flags=1;
+			id=1452;
+			type="ModuleCoverMap_F";
+			atlOffset=-39.909874;
 		};
 	};
 };

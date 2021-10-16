@@ -180,7 +180,7 @@ class CfgSectors {
             class sector_4 : sector {
                 dependency[] = {"base_west","sector_9"};
                 designator = "A";
-                spawnPoint = "sector_7_spawn";
+                spawnPoint = "sector_4_spawn";
             };
 
             class sector_9 : sector {
